@@ -6,7 +6,7 @@ Project created for Deel Interview.
 
 ### Clone repository
 
-clone the repository `git clone ...`
+clone the repository `git clone https://github.com/TomasBalaguer/deel_tech_autocomplete.git`
 
 ### install dependencies
 
