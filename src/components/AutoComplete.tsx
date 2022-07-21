@@ -69,6 +69,7 @@ export const AutoComplete: FC<AutoCompleteProps> = ({onCountrySelect}) => {
       if (!countries) {
         setSearch({...search, text: cap})
         const response = await LoadCountries();
+        if(response)
         countrySug = response
         .sort()
         .filter((v: Countries) => regex.test(v.name.common));

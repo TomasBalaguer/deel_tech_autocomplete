@@ -18,3 +18,5 @@ export type IData = {
     capital?: string;
     coatOfArms?: string;
   }
+
+  
