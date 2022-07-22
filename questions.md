@@ -181,7 +181,8 @@ SetState can recieve two arguments, the second one is a callback function to run
 
 ### List a few ways styles can be used with components. 
 1. Using `className` attribute and a css file.
-2. creating and object with the styles in the `style` attribute. ()
+2. creating and object with the styles in the `style` attribute. Inline CSS
+3. Using `styled-components` 
 
 ### How to render an HTML string coming from the server. 
 Using `dangerouslySetInnerHTML` with an object with a `__html` key.
